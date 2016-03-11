@@ -1,3 +1,2 @@
-install:
-- clean package -Dmaven.test.skip=true
+script clean package -Dmaven.test.skip=true
 sudo: false
