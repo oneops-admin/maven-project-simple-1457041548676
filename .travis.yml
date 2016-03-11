@@ -1,2 +1,3 @@
-script clean package -Dmaven.test.skip=true
+script: 
+mvn clean package -Dmaven.test.skip=true
 sudo: false
